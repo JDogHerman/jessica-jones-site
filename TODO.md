@@ -92,7 +92,9 @@ Tick each item off as you go. Nothing should go live until every **Confirm** ite
 - [ ] Country Bookshelf reading (photo caption and Past list): confirm it's Jessica; date; what she read or the event name
 - [x] Blaeser event: March 6, 2024. Added.
 - [ ] Blaeser event: check the photo's alt text
-- [ ] Poets for Science reading from *Wide Branches, Deep Roots* (Events, under Upcoming): date and time, in person or online, and who is reading. Confirm the title wording. Is it upcoming or already past?
+- [x] Poets for Science reading (Nov 13, 2026, with Amanda Hayes, Kent State) and "Story As Place" workshop (Nov 14, 2026, Meadowcroft Rockshelter) added to Past events from the event pages.
+- [ ] The Poets for Science page gives the book's subtitle as "How Appalachian Wisdom Can Help Us All in the Fight for Sustainability"; the cover says "How Appalachian Wisdom Can Help in the Fight for a Sustainable Future". The Books page uses the cover's wording. Correct?
+- [ ] The Poets for Science page has a bio of Jessica with new details (teaches creative writing; "comes from a long line of makers and musicians in Northern Appalachia"; "prefers to live life out of doors"; poetry and essays in journals and anthologies). Add any of these to the site bios?
 - [ ] Upcoming readings and talks (date, title, venue and city, optional link)
 - [ ] Past readings and talks
 
