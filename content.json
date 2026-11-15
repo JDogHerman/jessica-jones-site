@@ -1,0 +1,371 @@
+{
+  "_howToEdit": "Edit the text between quotation marks. Anything in [square brackets] shows on the site as a highlighted placeholder. Wrap a title in *asterisks* to make it italic. Leave a list empty, like [], to hide that section. See README.md for details.",
+
+  "site": {
+    "name": "Jessica Jones",
+    "title": "Lecturer, Kent State University at Stark campus",
+    "tagline": "[Add tagline, e.g. “Poet · Educator · Writer of Place”]",
+    "email": "[Add professional email]",
+    "social": [
+      { "label": "Facebook (poetry page)", "url": "https://www.facebook.com/share/15396Ej6LVE/" }
+    ],
+    "headshot": {
+      "src": "images/headshot.jpg",
+      "alt": "Jessica Jones sitting outdoors beside yellow wildflowers, wearing a denim jacket and smiling"
+    },
+    "disclaimer": "This is the personal website of Jessica Jones. It is not an official Kent State University website."
+  },
+
+  "home": {
+    "intro": [
+      "Jessica Jones writes poems and makes photographs rooted in particular places: Northern Appalachia, where she grew up with strong ties to the land; rural Montana; and the places her travels have taken her.",
+      "Her work traces layered local history, the human cost of copper and silver mining, environmental sustainability and land-based culture. She also writes ekphrastic poems in response to photographs of city walls, murals and graffiti.",
+      "She is a Lecturer at the Kent State University at Stark campus, where she teaches place-based composition, Native literature, travel writing and poetry."
+    ],
+    "quote": {
+      "text": "A sense of place is integral to my work as a writer and artist.",
+      "attribution": "Jessica Jones"
+    },
+    "featured": [
+      {
+        "title": "Wide Branches, Deep Roots",
+        "kind": "Edited collection · Forthcoming",
+        "detail": "Edited by Jessica M. Jones and Amanda E. Hayes. West Virginia University Press, December 2026.",
+        "image": {
+          "src": "images/wide-branches-deep-roots-cover.jpg",
+          "alt": "Cover of Wide Branches, Deep Roots, edited by Jessica M. Jones and Amanda E. Hayes"
+        },
+        "href": "books.html#edited",
+        "linkLabel": "About the book"
+      },
+      {
+        "title": "Bitterroot",
+        "kind": "Poetry chapbook",
+        "detail": "Finishing Line Press, 2018. Poems set on the Flathead Indian Reservation.",
+        "image": { "src": "images/bitterroot-cover.jpg", "alt": "Cover of Bitterroot by Jessica Jones: a watercolor of a white bitterroot flower and its roots on a pink background" },
+        "href": "books.html",
+        "linkLabel": "About the book"
+      },
+      {
+        "title": "Light Enters the Grove",
+        "kind": "Anthology",
+        "detail": "Kent State University Press, 2024. An anthology about Cuyahoga Valley National Park.",
+        "image": { "src": "images/light-enters-the-grove-cover.jpg", "alt": "Cover of the anthology Light Enters the Grove: collage illustrations of a moth, a crayfish and a yellow flower" },
+        "href": "books.html#anthologies",
+        "linkLabel": "Anthology appearances"
+      }
+    ],
+    "photoTeaser": {
+      "heading": "Photographs of place",
+      "text": "Her photographs of Philipsburg and Butte, Montana, informed the poems she wrote during her 2024 Open AIR residency.",
+      "photo": "granite-county-ghosts"
+    },
+    "explore": [
+      { "label": "Poems", "href": "poems.html", "blurb": "Publications and anthology credits" },
+      { "label": "Books & Anthologies", "href": "books.html", "blurb": "*Bitterroot* and anthology appearances" },
+      { "label": "Teaching", "href": "teaching.html", "blurb": "Courses, approach and community workshops" },
+      { "label": "Residencies", "href": "residencies.html", "blurb": "Open AIR, Cuyahoga Valley National Park and more" },
+      { "label": "Photography & Art", "href": "photography.html", "blurb": "Photographs of Montana, plus painting, drawing and collage" },
+      { "label": "Events", "href": "events.html", "blurb": "Readings and talks" }
+    ]
+  },
+
+  "poems": {
+    "intro": "Selected publication credits. Titles link to the poems where they are available online.",
+    "featuredPoems": [],
+    "groups": [
+      {
+        "heading": "Poets for Science",
+        "note": "Five poems selected, including:",
+        "items": [
+          { "title": "“Ghost Flight at Berkeley Pit”", "venue": "Poets for Science", "year": "[year]", "url": "" },
+          { "title": "“Exocoetidae”", "venue": "Poets for Science", "year": "[year]", "url": "" },
+          { "title": "[Add the other three poem titles, if you’d like to list them]", "venue": "", "year": "", "url": "" }
+        ]
+      },
+      {
+        "heading": "Anthologies",
+        "note": "",
+        "items": [
+          { "title": "*Light Enters the Grove*", "venue": "Kent State University Press", "year": "2024", "url": "https://www.kentstateuniversitypress.com/2024/light-enters-the-grove/" },
+          { "title": "*Poems Across the Big Sky*", "venue": "Many Voices Press", "year": "2006", "url": "https://a.co/d/05xrIKs5" },
+          { "title": "*Bright Bones*", "venue": "Open Country Press", "year": "2018", "url": "" },
+          { "title": "*Dear Vaccine*", "venue": "Kent State University Press", "year": "2022", "url": "https://www.kentstateuniversitypress.com/2021/dear-vaccine/" }
+        ]
+      },
+      {
+        "heading": "Journals",
+        "note": "",
+        "items": [
+          { "title": "[Add journal publication credits here: poem title, journal, year, link]", "venue": "", "year": "", "url": "" }
+        ]
+      }
+    ]
+  },
+
+  "books": {
+    "edited": {
+      "heading": "Edited collection",
+      "items": [
+        {
+          "title": "Wide Branches, Deep Roots",
+          "subtitle": "How Appalachian Wisdom Can Help in the Fight for a Sustainable Future",
+          "role": "Edited by Jessica M. Jones and Amanda E. Hayes",
+          "publisher": "West Virginia University Press",
+          "date": "December 2026",
+          "status": "Forthcoming",
+          "cover": {
+            "src": "images/wide-branches-deep-roots-cover.jpg",
+            "alt": "Cover of Wide Branches, Deep Roots, edited by Jessica M. Jones and Amanda E. Hayes: the title over a grid of small hand-printed squares in teal, green, black and gold showing leaves, trees, birds and a sun"
+          },
+          "quote": {
+            "paragraphs": [
+              "To be Appalachian is to define oneself in terms of a place. Where we’re from plays a tremendous role in who we are, through storytelling about our homeplaces and the people who have loved them. However, what goes largely unaddressed is how this love of place can contribute to sustainability within the region, which has notoriously faced on-going environmental threats from extraction industries. The reality is that our relationship with the environment is thorny and intertwined with our identities, histories, and economic realities. The authors in the collection get down among the thorns to explore what sustainability means in Appalachia and how we can utilize the power of traditional folkways to achieve it."
+            ],
+            "source": "West Virginia University Press"
+          },
+          "url": "https://wvupress.com/9781959000976/wide-branches-deep-roots/",
+          "linkLabel": "Publisher’s page",
+      "buyUrl": "https://a.co/d/0e5Ct3Si",
+      "buyLabel": "Order the book"
+        }
+      ]
+    },
+    "chapbook": {
+      "title": "Bitterroot",
+      "kind": "Poetry chapbook",
+      "publisher": "Finishing Line Press",
+      "year": "2018",
+      "description": "Poems set on the Flathead Indian Reservation.",
+      "cover": { "src": "images/bitterroot-cover.jpg", "alt": "Cover of Bitterroot by Jessica Jones: a watercolor of a white bitterroot flower and its roots on a pink background" },
+      "about": {
+        "heading": "About the book",
+        "paragraphs": [
+          "Traversing the sparse and sometimes rugged territory from Stevensville, Montana to the Flathead Indian Reservation, *Bitterroot* poignantly witnesses the complex intersections of Native and non-Native culture in Montana. A testament to the spirit of the land and those shaped by it, this collection reveals the ways in which the West remains both fraught with tension and modeled by beauty. Narrated by a young teacher with unexpected ties to the children in her classroom, each poem unfolds another layer of mountain life—from hauling wood and making fire to navigating a blizzard and grieving the loss of a student. Page by page, life presses closely against that which is raw and wild, lending individual moments a sense of urgency: “What I remember/ from Ovando, though, is stars. Stars and ice/ and the shock of our short inward breath.”",
+          "Attentive to a long tradition of tough Montana poets, Jessica Jones pays homage to giants such as Richard Hugo and James Welch while befriending contemporary writers like Jennifer Finley Greene and Robert Lee. A runner-up with Open Country Press and honorable mention with CutBank at University of Montana, *Bitterroot* is essential for any avid reader of Western literature."
+        ],
+        "source": "Finishing Line Press"
+      },
+      "buyUrl": "https://a.co/d/0eBdLRHs",
+      "buyLabel": "Buy Bitterroot"
+    },
+    "anthologies": [
+      {
+        "title": "Light Enters the Grove",
+        "publisher": "Kent State University Press",
+        "year": "2024",
+        "description": "An anthology about Cuyahoga Valley National Park. It also includes work by her colleague Bob King.",
+        "cover": { "src": "images/light-enters-the-grove-cover.jpg", "alt": "Cover of the anthology Light Enters the Grove: collage illustrations of a moth, a crayfish and a yellow flower" },
+        "url": "https://www.kentstateuniversitypress.com/2024/light-enters-the-grove/"
+      },
+      {
+        "title": "Poems Across the Big Sky",
+        "publisher": "Many Voices Press",
+        "year": "2006",
+        "description": "",
+        "url": "https://a.co/d/05xrIKs5",
+        "cover": {
+          "src": "images/poems-across-the-big-sky-cover.jpg",
+          "alt": "Cover of the anthology Poems Across the Big Sky: a painting of horses, a bison, a man in a feathered headdress, fish and an eagle in the sky above a bridge over a river, rusted cars and a small-town bar"
+        },
+        "quote": {
+          "text": "Whether in Montana classrooms or in solitude, the beauty, complexity, and struggle of lives in Montana have inspired the remarkable variety of voices which comprise *Poems Across the Big Sky*. The poets included are female as well as male, Native American as well as non-Native, gay as well as straight, urban as well as rural. Some of them write in the Native languages of Montana, and also in English. Together they provide a portrait of Montana which challenges and prods us to a new, more inclusive and comprehensive understanding of the bittersweet essence of contemporary life in Montana Reservations, cities, small towns, isolated ranches, cabins, prairies, and mountains.",
+          "source": "Margaret C. Kingsland (from the Introduction)"
+        }
+      },
+      {
+        "title": "Bright Bones",
+        "publisher": "Open Country Press",
+        "year": "2018",
+        "description": "",
+        "url": "",
+        "subtitle": "Contemporary Montana Writing",
+        "quote": {
+          "paragraphs": [
+            "*Bright Bones* is an anthology of innovative literature, and is currently available at Open Country Press. The cover art is by Butte artist Kelly Packer. *Bright Bones* includes fresh poems, stories, lyric essays and translations, as well as cross-genre, collaborative and experimental works. Emerging and established writers from Montana and/or those who have spent a significant amount of time in Montana are featured."
+          ],
+          "source": "Open Country Press"
+        },
+        "cover": {
+          "src": "images/bright-bones-cover.jpg",
+          "alt": "Cover of the anthology Bright Bones: Contemporary Montana Writing, with an abstract painting in yellow, red and white by Kelly Packer set on a blue background"
+        }
+      },
+      {
+        "title": "Dear Vaccine",
+        "publisher": "Kent State University Press",
+        "year": "2022",
+        "description": "",
+        "url": "https://www.kentstateuniversitypress.com/2021/dear-vaccine/",
+        "quote": {
+          "paragraphs": [
+            "People from around the world reflect on the COVID-19 pandemic and vaccine through poetry",
+            "In March 2021, the Wick Poetry Center at Kent State University and the University of Arizona Poetry Center launched the website for the Global Vaccine Poem project, inviting anyone to share experiences of the pandemic and vaccination through poetry. *Dear Vaccine* features selections from over 2,000 poetry submissions to the project, which come from all 50 states and 118 different countries."
+          ],
+          "source": "Kent State University Press"
+        },
+        "cover": {
+          "src": "images/dear-vaccine-cover.jpg",
+          "alt": "Cover of the anthology Dear Vaccine: Global Voices Speak to the Pandemic, with yellow script lettering on a dark blue background above an illustrated curve of the Earth in shades of blue"
+        }
+      }
+    ]
+  },
+
+  "teaching": {
+    "intro": "Jessica Jones is a Lecturer at the Kent State University at Stark campus.",
+    "courses": [
+      "Place-based composition",
+      "Native literature",
+      "Travel writing",
+      "Poetry"
+    ],
+    "approach": [
+      "Her teaching draws on her study of place-based and Indigenous education at the University of Montana, where she earned an M.A. in English, and on her K-12 teaching licensure and training in Indian Education for All.",
+      "[Add a few sentences, in your own words, about your place-based teaching approach]"
+    ],
+    "earlier": [
+      "She taught middle school on the Flathead Indian Reservation for several years.",
+      "She teaches regularly with Upward Bound, serving students from the Blackfeet Reservation and Missoula County Public Schools."
+    ],
+    "community": [
+      {
+        "title": "Open AIR writing workshops",
+        "text": "As writer-in-residence with Open AIR in Philipsburg, Montana (summer 2024), she led two adult writing workshops and one teen workshop at the local library.",
+        "url": ""
+      },
+      {
+        "title": "Art camp",
+        "text": "During the same residency she taught art camp at the local elementary school.",
+        "url": ""
+      },
+      {
+        "title": "“Dear Philipsburg”",
+        "text": "She created and ran “Dear Philipsburg,” a community poem platform where residents shared memories, photos and poems.",
+        "url": "https://sparkpoems.com/dear-philipsburg/share",
+        "linkLabel": "Visit “Dear Philipsburg”"
+      }
+    ]
+  },
+
+  "residencies": [
+    {
+      "title": "Open AIR Artist Residency",
+      "role": "Writer-in-Residence",
+      "place": "Philipsburg, Montana",
+      "dates": "Summer II (July–August) 2024",
+      "description": [
+        "As writer-in-residence, she led two adult library writing workshops and one teen workshop, and taught art camp at the local elementary school.",
+        "She created and ran “Dear Philipsburg,” a community poem platform where residents shared memories, photos and poems. Her photographs of Philipsburg and Butte informed the poems she wrote during the residency."
+      ],
+      "url": "https://sparkpoems.com/dear-philipsburg/share",
+      "linkLabel": "Visit “Dear Philipsburg”"
+    },
+    {
+      "title": "Cuyahoga Valley National Park",
+      "role": "Poet-in-Residence",
+      "place": "Ohio",
+      "dates": "2007–2008",
+      "description": [
+        "[Add a sentence or two about this residency]"
+      ],
+      "url": ""
+    },
+    {
+      "title": "Calcutta Mercy Hospital",
+      "role": "Writer-in-Residence",
+      "place": "India",
+      "dates": "[year]",
+      "description": [
+        "[Add a sentence or two about this residency]"
+      ],
+      "url": ""
+    }
+  ],
+
+  "photography": {
+    "intro": "Photographs by Jessica Jones of Philipsburg and Butte, Montana. These images informed the poems she wrote during her 2024 Open AIR residency.",
+    "photos": [
+      {
+        "id": "granite-county-ghosts",
+        "title": "Granite County Ghosts",
+        "src": "images/photos/granite-county-ghosts.jpg",
+        "alt": "A small pink stucco house with a gray gable roof, and an old olive-green sedan parked in tall grass beside it, under a clear blue sky with tall evergreens behind",
+        "caption": "© 2024 Jessica Jones"
+      },
+      {
+        "id": "butte-alley-with-bicyclist",
+        "title": "Butte Alley with Bicyclist",
+        "src": "images/photos/butte-alley-with-bicyclist.jpg",
+        "alt": "A narrow alley between old red-brick buildings strung with café lights, with a lone cyclist riding away down the middle, graffiti on the left wall and a green-screened fence on the right",
+        "caption": "© 2024 Jessica Jones"
+      }
+    ],
+    "art": {
+      "heading": "Art",
+      "intro": "",
+      "pieces": [
+      {
+        "title": "[Title of the painting]",
+        "src": "images/art/and-or-cover.jpg",
+        "alt": "Cover of And/Or, poems by Bob King, featuring Jessica Jones’s painting: loose dark circles and colored dots over washes of pink, red and yellow",
+        "caption": "Cover art for *And/Or*, poems by Bob King (Finishing Line Press, 2025)"
+      },
+        {
+          "title": "[Title]",
+          "src": "images/art/art-1-house-drawing.jpg",
+          "alt": "Pencil drawing of a two-story Victorian house with a mansard roof, arched windows and a front porch, framed by bare trees and shrubs, with a lawn and a curving path in the foreground. Handwritten below: “late May.”",
+          "caption": "[Medium, year]"
+        },
+        {
+          "title": "[Title]",
+          "src": "images/art/art-2-collage.jpg",
+          "alt": "Collage of layered papers in gold, green, blue and brown, including a small red-and-black painted square, a canceled postage stamp and fragments of handwriting",
+          "caption": "[Medium, year]"
+        }
+      ]
+    }
+  },
+
+  "bio": {
+    "short": "Jessica Jones is a poet, photographer and college educator whose work centers on a sense of place. She grew up in Northern Appalachia with strong ties to the land, and her poems and photographs move between that region, rural Montana and her travels. She is the author of the poetry chapbook *Bitterroot* (Finishing Line Press, 2018) and co-editor, with Amanda E. Hayes, of *Wide Branches, Deep Roots* (West Virginia University Press, forthcoming December 2026). Her work appears in the anthology *Light Enters the Grove* (Kent State University Press, 2024). She holds an M.A. in English from the University of Montana and is a Lecturer at the Kent State University at Stark campus, where she teaches place-based composition, Native literature, travel writing and poetry.",
+    "long": [
+      "Jessica Jones is a poet, photographer and college educator whose work centers on a sense of place. She grew up in Northern Appalachia with strong ties to the land, and her poems and photographs are rooted in that region, in rural Montana and in the places her travels have taken her. Her work explores layered local history, the human cost of copper and silver mining, environmental sustainability and land-based culture. She also writes ekphrastic poems that respond to photographs of city walls, murals and graffiti.",
+      "She is the author of the poetry chapbook *Bitterroot* (Finishing Line Press, 2018), set on the Flathead Indian Reservation. With Amanda E. Hayes, she co-edited *Wide Branches, Deep Roots: How Appalachian Wisdom Can Help in the Fight for a Sustainable Future* (West Virginia University Press, forthcoming December 2026), a collection exploring what sustainability means in Appalachia and how traditional folkways can help achieve it. Her poems appear in the anthologies *Light Enters the Grove* (Kent State University Press, 2024), *Poems Across the Big Sky*, *Bright Bones* and *Dear Vaccine*, and five of her poems, including “Ghost Flight at Berkeley Pit” and “Exocoetidae,” were selected for Poets for Science.",
+      "She was Poet-in-Residence at Cuyahoga Valley National Park (2007–2008) and Writer-in-Residence at Calcutta Mercy Hospital in India. In the summer of 2024 she was writer-in-residence with the Open AIR artist residency in Philipsburg, Montana, where she led library writing workshops for adults and teens, taught art camp at the local elementary school, and created “Dear Philipsburg,” a community poem platform where residents shared memories, photos and poems.",
+      "Jones holds an M.A. in English from the University of Montana, where she studied place-based and Indigenous education, as well as K-12 teaching licensure and training in Indian Education for All. She taught middle school on the Flathead Indian Reservation for several years and teaches regularly with Upward Bound, serving students from the Blackfeet Reservation and Missoula County Public Schools. She is a Lecturer at the Kent State University at Stark campus, where she teaches place-based composition, Native literature, travel writing and poetry.",
+      "Away from the page and the classroom, she enjoys hiking, paddle boarding, and time with loved ones and her cat, Magnolia."
+    ],
+    "cv": { "file": "", "label": "Download CV (PDF)" }
+  },
+
+  "awards": [],
+
+  "praise": [],
+
+  "events": {
+    "intro": "Readings, talks and workshops.",
+    "photos": [{
+      "src": "images/events/event-1.jpg",
+      "alt": "From left: David Hassler, standing and holding papers, with poet Kimberly Blaeser and Jessica Jones seated in patterned armchairs, at a poetry event in a room hung with large poetry broadsides",
+      "caption": "From left: David Hassler, Kimberly Blaeser and Jessica Jones at the Wick Poetry Corner, Kent State University Library, March 6, [year]"
+    },
+    {
+      "src": "images/events/event-2.jpg",
+      "alt": "Jessica Jones reading at a microphone in a bookstore, holding a teal book, in front of shelves of books and a Country Bookshelf banner",
+      "caption": "Jessica Jones reading at Country Bookshelf, Bozeman, Montana, [date]"
+    }],
+    "upcoming": [
+      { "date": "[Date]", "title": "[Add upcoming readings and talks here]", "place": "[Venue, city]", "url": "" }
+    ],
+    "past": [
+      { "date": "March 6, [year]", "title": "Q&A with poet Kimberly Blaeser about her new poetry collection, initiatives and inspiration (led by Jessica Jones)", "place": "Wick Poetry Corner, Kent State University Library", "url": "https://www.kent.edu/today/news/poet-seeks-bring-language-back" },
+      { "date": "[Date]", "title": "[Reading: event name or what she read]", "place": "Country Bookshelf, Bozeman, Montana", "url": "" },
+      { "date": "[Date]", "title": "[Add more past readings and talks here]", "place": "[Venue, city]", "url": "" }
+    ]
+  },
+
+  "contact": {
+    "intro": "For readings, workshops and other inquiries, please get in touch by email."
+  }
+}
