@@ -365,21 +365,30 @@
 
   "events": {
     "intro": "Readings, talks and workshops.",
-    "photos": [{
-      "src": "images/events/event-1.jpg",
-      "alt": "From left: David Hassler, standing and holding papers, with poet Kimberly Blaeser and Jessica Jones seated in patterned armchairs, at a poetry event in a room hung with large poetry broadsides",
-      "caption": "From left: David Hassler, Kimberly Blaeser and Jessica Jones at the Wick Poetry Corner, Kent State University Library, March 6, 2024"
-    },
-    {
-      "src": "images/events/event-2.jpg",
-      "alt": "Jessica Jones reading at a microphone in a bookstore, holding a teal book, in front of shelves of books and a Country Bookshelf banner",
-      "caption": "Jessica Jones reading at Country Bookshelf, Bozeman, Montana, [date]"
-    }],
+    "photos": [
+      {
+        "src": "images/events/artist-talk-philipsburg.jpg",
+        "alt": "Event graphic reading “Artist Talk with Jessica Jones, Poet, Writer, Painter, in Philipsburg, MT”, with a portrait of Jessica smiling at a laptop and small photos of her speaking to a seated audience",
+        "caption": "Artist talk with Jessica Jones in Philipsburg, Montana, [date]",
+        "fit": true
+      },
+      {
+        "src": "images/events/event-1.jpg",
+        "alt": "From left: David Hassler, standing and holding papers, with poet Kimberly Blaeser and Jessica Jones seated in patterned armchairs, at a poetry event in a room hung with large poetry broadsides",
+        "caption": "From left: David Hassler, Kimberly Blaeser and Jessica Jones at the Wick Poetry Corner, Kent State University Library, March 6, 2024"
+      },
+      {
+        "src": "images/events/event-2.jpg",
+        "alt": "Jessica Jones reading at a microphone in a bookstore, holding a teal book, in front of shelves of books and a Country Bookshelf banner",
+        "caption": "Jessica Jones reading at Country Bookshelf, Bozeman, Montana, [date]"
+      }
+    ],
     "upcoming": [
       { "date": "[Date]", "title": "[Add upcoming readings and talks here]", "place": "[Venue, city]", "url": "" }
     ],
     "past": [
       { "date": "March 6, 2024", "title": "Q&A with poet Kimberly Blaeser about her new poetry collection, initiatives and inspiration (led by Jessica Jones)", "place": "Wick Poetry Corner, Kent State University Library", "url": "https://www.kent.edu/today/news/poet-seeks-bring-language-back" },
+      { "date": "[Date]", "title": "Artist Talk with Jessica Jones: poet, writer, painter", "place": "[Venue], Philipsburg, Montana", "url": "" },
       { "date": "[Date]", "title": "[Reading: event name or what she read]", "place": "Country Bookshelf, Bozeman, Montana", "url": "" },
       { "date": "[Date]", "title": "[Add more past readings and talks here]", "place": "[Venue, city]", "url": "" }
     ]

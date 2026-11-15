@@ -354,7 +354,7 @@ main {
 .art-gallery figure { max-width: 26rem; }
 
 .event-photos { display: grid; gap: 1.75rem; margin-bottom: 2rem; align-items: start; }
-@media (min-width: 40rem) { .event-photos { grid-template-columns: 1fr 1fr; } }
+@media (min-width: 40rem) { .event-photos { grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr)); } }
 #content > .event-photos { max-width: var(--wide); }
 .event-photo { margin: 0; }
 .event-img { aspect-ratio: 4 / 3; object-fit: cover; }
@@ -378,3 +378,4 @@ main {
 @media (min-width: 40rem) { .residency-body { grid-template-columns: 1fr 14rem; gap: 2rem; align-items: start; } }
 .residency-photos { display: grid; gap: 1.25rem; }
 @media (max-width: 39.99rem) { .residency-photos { grid-template-columns: 1fr 1fr; } .residency-photo { max-width: none; } }
+.event-img.fit { aspect-ratio: auto; object-fit: contain; }

@@ -322,7 +322,7 @@
       var out = '<p class="lede">' + fmt(e.intro) + "</p>";
       if (e.photos && e.photos.length) {
         out += '<div class="event-photos">' + e.photos.map(function (ph) {
-          return '<figure class="event-photo">' + img(ph.src, ph.alt, "event-img") +
+          return '<figure class="event-photo">' + img(ph.src, ph.alt, ph.fit ? "event-img fit" : "event-img") +
             "<figcaption>" + fmt(ph.caption) +
             (ph.credit ? '<span class="caption">' + fmt(ph.credit) + "</span>" : "") +
             "</figcaption></figure>";

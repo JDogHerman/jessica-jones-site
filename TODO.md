@@ -87,6 +87,7 @@ Tick each item off as you go. Nothing should go live until every **Confirm** ite
 - [ ] Calcutta Mercy Hospital: year, plus a sentence or two of description
 
 ### Events (`content.json` → `events`)
+- [ ] Philipsburg artist talk (graphic and Past list): date and venue. Was it part of the 2024 Open AIR residency?
 - [ ] Country Bookshelf reading (photo caption and Past list): confirm it's Jessica; date; what she read or the event name
 - [x] Blaeser event: March 6, 2024. Added.
 - [ ] Blaeser event: check the photo's alt text
