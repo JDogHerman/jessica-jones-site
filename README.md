@@ -106,6 +106,9 @@ While it's a draft, each page has a `noindex` line (marked DRAFT) that asks sear
 ### If you change the web address
 Each page's `<head>` contains `https://YOUR-SITE-URL` (used for search engines and social-media previews). Replace it in all nine `.html` files with your real address, without a trailing slash, e.g. `https://jessicajones.net`. Most editors have "Find in files / Replace all". The page titles and descriptions for search engines are in the same `<head>` sections if you ever want to reword them.
 
+### If a change doesn't show up
+Browsers keep copies of the site's style and script files for a while. If you change `assets/css/style.css` or `assets/js/site.js`, also bump the number after `?v=` where those files are linked in the nine `.html` files (any new number works). Text changes in `content.json` don't need this.
+
 ## Design notes
 - Fonts: Cormorant Garamond (headings) and Source Serif 4 (body), from Google Fonts.
 - Colours are defined at the top of `assets/css/style.css`: paper `#faf7f0`, ink `#1f2a2c`, moss green `#3d5a40`, copper `#8f5430` and sage `#a9b49a`. All text colours meet WCAG AA contrast.
