@@ -79,6 +79,7 @@ Tick each item off as you go. Nothing should go live until every **Confirm** ite
 - [x] "Dear Philipsburg" link. Added (Teaching and Residencies).
 
 ### Residencies (`content.json` → `residencies`)
+- [ ] High school photo (Open AIR entry): name the other person, or leave her unnamed? Check the alt text.
 - [ ] Philipsburg library photo (Open AIR entry): confirm it's Jessica and that it was taken during the 2024 residency; is that flyer for her workshops? (I can add that to the caption.)
 - [x] "Dear Philipsburg" link on the Open AIR residency. Added.
 - [ ] Optional: a link to the Open AIR residency's own website

@@ -268,11 +268,18 @@
       ],
       "url": "https://sparkpoems.com/dear-philipsburg/share",
       "linkLabel": "Visit “Dear Philipsburg”",
-      "photo": {
-        "src": "images/residencies/philipsburg-library.jpg",
-        "alt": "Jessica Jones, smiling in a wide-brimmed straw hat, points to a writing-workshop flyer on the community notice board outside the Philipsburg Public Library",
-        "caption": "Jessica Jones at the Philipsburg Public Library, Philipsburg, Montana"
-      }
+      "photos": [
+        {
+          "src": "images/residencies/philipsburg-library.jpg",
+          "alt": "Jessica Jones, smiling in a wide-brimmed straw hat, points to a writing-workshop flyer on the community notice board outside the Philipsburg Public Library",
+          "caption": "Jessica Jones at the Philipsburg Public Library, Philipsburg, Montana"
+        },
+        {
+          "src": "images/residencies/open-air-high-school.jpg",
+          "alt": "Jessica Jones, at left in a cap and denim shirt, stands with another woman outside the arched stone entrance of an old red-brick building carved with the words High School",
+          "caption": "Jessica Jones (left) during her 2024 Open AIR residency in Philipsburg, Montana"
+        }
+      ]
     },
     {
       "title": "Cuyahoga Valley National Park",
