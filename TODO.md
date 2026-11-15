@@ -84,7 +84,8 @@ Tick each item off as you go. Nothing should go live until every **Confirm** ite
 
 ### Events (`content.json` → `events`)
 - [ ] Country Bookshelf reading (photo caption and Past list): confirm it's Jessica; date; what she read or the event name
-- [ ] Blaeser event (photo caption and Past list): the year (March 6 fell on a Wednesday in 2024; confirm); check the alt text
+- [x] Blaeser event: March 6, 2024. Added.
+- [ ] Blaeser event: check the photo's alt text
 - [ ] Upcoming readings and talks (date, title, venue and city, optional link)
 - [ ] Past readings and talks
 
