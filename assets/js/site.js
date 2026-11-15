@@ -272,7 +272,10 @@
           '<p class="eyebrow">' + meta([r.dates]) + "</p>" +
           "<h2>" + fmt(r.title) + "</h2>" +
           '<p class="book-meta">' + meta([r.role, r.place]) + "</p>" +
-          paras(r.description) + lnk + "</article>";
+          (r.photo ? '<div class="residency-body"><div>' + paras(r.description) + lnk + "</div>" +
+            '<figure class="residency-photo">' + img(r.photo.src, r.photo.alt, "res-img") +
+            "<figcaption>" + fmt(r.photo.caption) + "</figcaption></figure></div>"
+            : paras(r.description) + lnk) + "</article>";
       }).join("") + "</div>";
     },
 

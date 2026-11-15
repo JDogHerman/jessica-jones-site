@@ -370,3 +370,9 @@ main {
 /* Featured work: widen to fit three cards side by side */
 #content > .featured { max-width: 60rem; }
 @media (min-width: 52rem) { .cards-3 { grid-template-columns: repeat(3, 1fr); } }
+
+.residency-body { display: grid; gap: 1.25rem; }
+.residency-photo { margin: 0; max-width: 18rem; }
+.res-img { width: 100%; border-radius: 2px; }
+.residency-photo figcaption { margin-top: 0.5rem; font-size: 0.92rem; color: var(--ink-soft); }
+@media (min-width: 40rem) { .residency-body { grid-template-columns: 1fr 14rem; gap: 2rem; align-items: start; } }

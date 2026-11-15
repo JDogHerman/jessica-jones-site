@@ -267,7 +267,12 @@
         "She created and ran “Dear Philipsburg,” a community poem platform where residents shared memories, photos and poems. Her photographs of Philipsburg and Butte informed the poems she wrote during the residency."
       ],
       "url": "https://sparkpoems.com/dear-philipsburg/share",
-      "linkLabel": "Visit “Dear Philipsburg”"
+      "linkLabel": "Visit “Dear Philipsburg”",
+      "photo": {
+        "src": "images/residencies/philipsburg-library.jpg",
+        "alt": "Jessica Jones, smiling in a wide-brimmed straw hat, points to a writing-workshop flyer on the community notice board outside the Philipsburg Public Library",
+        "caption": "Jessica Jones at the Philipsburg Public Library, Philipsburg, Montana"
+      }
     },
     {
       "title": "Cuyahoga Valley National Park",
