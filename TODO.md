@@ -6,7 +6,7 @@ Tick each item off as you go. Nothing should go live until every **Confirm** ite
 ## 1. Confirm (marked [confirm] in the brief)
 
 - [x] **Title wording.** "Lecturer, Kent State University at Stark campus" (changed everywhere at your request).
-- [ ] **Poets for Science.** Title corrected to "Ghost Flight, Berkeley Pit" from the published text. Still to confirm: spelling of "Exocoetidae", the year, links, and the wording "five poems selected".
+- [ ] **Poets for Science.** Title corrected to "Ghost Flight, Berkeley Pit" from the published text. Still to confirm: spelling of "Exocoetidae", its year and link (Ghost Flight is done: 2025), and the wording "five poems selected".
 
 
 ## 2. Fill in (placeholders on the site)
@@ -55,7 +55,7 @@ Tick each item off as you go. Nothing should go live until every **Confirm** ite
 - [ ] Titles of the other three Poets for Science poems (optional)
 - [ ] Journal publications: poem title, journal, year and link for each
 - [x] Featured poem: "Ghost Flight, Berkeley Pit" added with its exact spacing. Confirm Jessica is happy for the full text to be on the site.
-- [ ] Where was "Ghost Flight, Berkeley Pit" published on January 15, 2025 (Poets for Science?), with a link? Fills the credit line.
+- [x] "Ghost Flight, Berkeley Pit": credited to Poets for Science, *Nature of Our Times*, January 15, 2025, with link.
 - [ ] The poem text has "Berkely Pit" in one line (elsewhere "Berkeley"). Kept exactly as sent; fix only if it's a typo.
 
 ### Books & Anthologies (`content.json` → `books`)

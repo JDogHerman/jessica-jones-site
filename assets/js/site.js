@@ -174,7 +174,7 @@
           return '<article class="poem"><h3>' + fmt(fp.title) + "</h3>" +
             (fp.place ? '<p class="credit-meta">' + fmt(fp.place) + "</p>" : "") +
             '<div class="poem-scroll" tabindex="0" role="region" aria-label="Poem text: ' + esc(fp.title) + '"><div class="poem-text">' +
-            esc(fp.text) + "</div></div>" + (fp.credit ? '<p class="credit credit-meta">' + fmt(fp.credit) + "</p>" : "") + "</article>";
+            esc(fp.text) + "</div></div>" + (fp.credit ? '<p class="credit credit-meta">' + link(fmt(fp.credit), fp.creditUrl) + "</p>" : "") + "</article>";
         }).join(""), { cls: "poems-featured" });
       }
       (p.groups || []).forEach(function (g) {
