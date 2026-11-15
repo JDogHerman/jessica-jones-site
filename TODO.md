@@ -12,7 +12,7 @@ Tick each item off as you go. Nothing should go live until every **Confirm** ite
 ## 2. Fill in (placeholders on the site)
 
 ### Site-wide (`content.json` → `site`)
-- [ ] Tagline. It currently shows the example "Poet · Educator · Writer of Place" as a placeholder. Choose or approve one.
+- [x] Tagline: "Poet · Educator · Writer of Place".
 - [ ] Professional email address
 - [x] Facebook link. Added (Contact page).
 - [ ] Optional: any other social media links (Instagram, etc.)
