@@ -95,7 +95,7 @@ Tick each item off as you go. Nothing should go live until every **Confirm** ite
 - [x] Poets for Science reading (Nov 13, 2026, with Amanda Hayes, Kent State) and "Story As Place" workshop (Nov 14, 2026, Meadowcroft Rockshelter) added to Past events from the event pages.
 - [ ] The Poets for Science page gives the book's subtitle as "How Appalachian Wisdom Can Help Us All in the Fight for Sustainability"; the cover says "How Appalachian Wisdom Can Help in the Fight for a Sustainable Future". The Books page uses the cover's wording. Correct?
 - [x] Added from the Poets for Science bio: creative writing (courses list, Home intro, bios); "a long line of makers and musicians in Northern Appalachia"; "prefers to live life out of doors"; poetry and essays in journals and anthologies.
-- [ ] March 20, 2026 panel "Safeguarding Appalachian Ecologies" (Past events): conference name, city and a link
+- [ ] March 20, 2026 panel "Safeguarding Appalachian Ecologies" (Marshall University): conference name and a link
 - [ ] 2025 Lit Youngstown festival: her session title, date, venue (paste from the festival page)
 - [ ] Upcoming readings and talks (date, title, venue and city, optional link)
 - [ ] Past readings and talks
