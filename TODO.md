@@ -6,7 +6,7 @@ Tick each item off as you go. Nothing should go live until every **Confirm** ite
 ## 1. Confirm (marked [confirm] in the brief)
 
 - [x] **Title wording.** "Lecturer, Kent State University at Stark campus" (changed everywhere at your request).
-- [ ] **Poets for Science.** Check the spelling of "Ghost Flight at Berkeley Pit" and "Exocoetidae", add the year, and add links. Also confirm the wording "five poems selected".
+- [ ] **Poets for Science.** Title corrected to "Ghost Flight, Berkeley Pit" from the published text. Still to confirm: spelling of "Exocoetidae", the year, links, and the wording "five poems selected".
 
 
 ## 2. Fill in (placeholders on the site)
@@ -54,7 +54,9 @@ Tick each item off as you go. Nothing should go live until every **Confirm** ite
 ### Poems (`content.json` → `poems`)
 - [ ] Titles of the other three Poets for Science poems (optional)
 - [ ] Journal publications: poem title, journal, year and link for each
-- [ ] Featured poem(s): only with your permission. Add the title and full text. (This section is hidden until you add one.)
+- [x] Featured poem: "Ghost Flight, Berkeley Pit" added with its exact spacing. Confirm Jessica is happy for the full text to be on the site.
+- [ ] Where was "Ghost Flight, Berkeley Pit" published on January 15, 2025 (Poets for Science?), with a link? Fills the credit line.
+- [ ] The poem text has "Berkely Pit" in one line (elsewhere "Berkeley"). Kept exactly as sent; fix only if it's a typo.
 
 ### Books & Anthologies (`content.json` → `books`)
 - [x] *Bitterroot*: purchase link (Amazon). Added. Optional: also link to the Finishing Line Press page, if it’s still listed there.

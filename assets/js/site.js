@@ -170,10 +170,12 @@
     poems: function (c) {
       var p = c.poems, out = '<p class="lede">' + fmt(p.intro) + "</p>";
       if (p.featuredPoems && p.featuredPoems.length) {
-        out += section("Featured poems", p.featuredPoems.map(function (fp) {
-          return '<article class="poem"><h3>' + fmt(fp.title) + '</h3><div class="poem-text">' +
-            esc(fp.text) + "</div>" + (fp.credit ? '<p class="credit">' + fmt(fp.credit) + "</p>" : "") + "</article>";
-        }).join(""));
+        out += section(p.featuredPoems.length > 1 ? "Featured poems" : "Featured poem", p.featuredPoems.map(function (fp) {
+          return '<article class="poem"><h3>' + fmt(fp.title) + "</h3>" +
+            (fp.place ? '<p class="credit-meta">' + fmt(fp.place) + "</p>" : "") +
+            '<div class="poem-scroll" tabindex="0" role="region" aria-label="Poem text: ' + esc(fp.title) + '"><div class="poem-text">' +
+            esc(fp.text) + "</div></div>" + (fp.credit ? '<p class="credit credit-meta">' + fmt(fp.credit) + "</p>" : "") + "</article>";
+        }).join(""), { cls: "poems-featured" });
       }
       (p.groups || []).forEach(function (g) {
         out += section(g.heading,
