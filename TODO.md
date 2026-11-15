@@ -92,6 +92,7 @@ Tick each item off as you go. Nothing should go live until every **Confirm** ite
 - [ ] Country Bookshelf reading (photo caption and Past list): confirm it's Jessica; date; what she read or the event name
 - [x] Blaeser event: March 6, 2024. Added.
 - [ ] Blaeser event: check the photo's alt text
+- [ ] Poets for Science reading from *Wide Branches, Deep Roots* (Events, under Upcoming): date and time, in person or online, and who is reading. Confirm the title wording. Is it upcoming or already past?
 - [ ] Upcoming readings and talks (date, title, venue and city, optional link)
 - [ ] Past readings and talks
 

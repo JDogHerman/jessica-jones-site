@@ -385,7 +385,8 @@
       }
     ],
     "upcoming": [
-      { "date": "[Date]", "title": "[Add upcoming readings and talks here]", "place": "[Venue, city]", "url": "" }
+      { "date": "[Date]", "title": "A Reading from *Wide Branches, Deep Roots*: How Appalachian Wisdom Can Help Us All in the Fight for Sustainability", "place": "Poets for Science · [venue or online]", "url": "https://poetsforscience.org/session/a-reading-from-wide-branches-deep-roots-how-appalachian-wisdom-can-help-us-all-in-the-fight-for-sustainability/" },
+      { "date": "[Date]", "title": "[Add more upcoming readings and talks here]", "place": "[Venue, city]", "url": "" }
     ],
     "past": [
       { "date": "March 6, 2024", "title": "Q&A with poet Kimberly Blaeser about her new poetry collection, initiatives and inspiration (led by Jessica Jones)", "place": "Wick Poetry Corner, Kent State University Library", "url": "https://www.kent.edu/today/news/poet-seeks-bring-language-back" },
