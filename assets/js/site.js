@@ -254,7 +254,7 @@
       }).join("") + "</ul>");
       out += section("A place-based approach", paras(t.approach));
       out += section("Earlier teaching", paras(t.earlier));
-      out += section("Community &amp; workshops", '<div class="stack">' + t.community.map(function (w) {
+      out += section("Community & workshops", '<div class="stack">' + t.community.map(function (w) {
         var lnk = isBlank(w.url)
           ? (w.linkLabel ? "<p>" + fmt(w.linkLabel) + "</p>" : "")
           : '<p><a class="more" href="' + esc(w.url) + '" rel="noopener">' + fmt(w.linkLabel || "Visit") + ' <span aria-hidden="true">→</span></a></p>';
@@ -300,7 +300,7 @@
       out += section("Short bio", "<p>" + fmt(b.short) + "</p>", { id: "short-bio" });
       out += section("Long bio", paras(b.long), { id: "long-bio" });
       if (c.awards && c.awards.length) {
-        out += section("Awards &amp; honors", '<ul class="tidy">' + c.awards.map(function (a) {
+        out += section("Awards & honors", '<ul class="tidy">' + c.awards.map(function (a) {
           return "<li>" + fmt(a) + "</li>";
         }).join("") + "</ul>");
       }
