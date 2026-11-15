@@ -15,7 +15,8 @@ Tick each item off as you go. Nothing should go live until every **Confirm** ite
 - [x] Tagline: "Poet · Educator · Writer of Place".
 - [ ] Professional email address
 - [x] Facebook link. Added (Contact page).
-- [ ] Optional: any other social media links (Instagram, etc.)
+- [x] Instagram link. Added (Contact page).
+- [ ] Optional: any other social media links
 - [x] Website address set to https://jdogherman.github.io/jessica-jones-site (change it in all 9 `.html` files if you add a custom domain later)
 - [ ] **Before announcing the site:** remove the `<meta name="robots" content="noindex, nofollow">` line (marked DRAFT) from the `<head>` of all 9 `.html` files so search engines can list it
 

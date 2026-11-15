@@ -7,7 +7,8 @@
     "tagline": "Poet · Educator · Writer of Place",
     "email": "[Add professional email]",
     "social": [
-      { "label": "Facebook (poetry page)", "url": "https://www.facebook.com/share/15396Ej6LVE/" }
+      { "label": "Facebook (poetry page)", "url": "https://www.facebook.com/share/15396Ej6LVE/" },
+      { "label": "Instagram (@jessicajonespoetry)", "url": "https://www.instagram.com/jessicajonespoetry/" }
     ],
     "headshot": {
       "src": "images/headshot.jpg",
