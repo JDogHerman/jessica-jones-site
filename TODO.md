@@ -94,12 +94,12 @@ Tick each item off as you go. Nothing should go live until every **Confirm** ite
 - [ ] Blaeser event: check the photo's alt text
 - [x] Poets for Science reading (Nov 13, 2026, with Amanda Hayes, Kent State) and "Story As Place" workshop (Nov 14, 2026, Meadowcroft Rockshelter) added to Past events from the event pages.
 - [ ] The Poets for Science page gives the book's subtitle as "How Appalachian Wisdom Can Help Us All in the Fight for Sustainability"; the cover says "How Appalachian Wisdom Can Help in the Fight for a Sustainable Future". The Books page uses the cover's wording. Correct?
-- [ ] The Poets for Science page has a bio of Jessica with new details (teaches creative writing; "comes from a long line of makers and musicians in Northern Appalachia"; "prefers to live life out of doors"; poetry and essays in journals and anthologies). Add any of these to the site bios?
+- [x] Added from the Poets for Science bio: creative writing (courses list, Home intro, bios); "a long line of makers and musicians in Northern Appalachia"; "prefers to live life out of doors"; poetry and essays in journals and anthologies.
 - [ ] Upcoming readings and talks (date, title, venue and city, optional link)
 - [ ] Past readings and talks
 
 ### Bio (`content.json` → `bio`)
-- [ ] Read the short bio (121 words) and long bio (362 words). I wrote them only from the facts you gave me, but they're in your voice, so please approve or edit them.
+- [ ] Read the short bio (136 words) and long bio (394 words). I wrote them only from the facts you gave me, but they're in your voice, so please approve or edit them.
 - [ ] CV: add a PDF to `/docs` and set `bio.cv.file` (e.g. `"docs/jessica-jones-cv.pdf"`). The download button stays hidden until you do.
 
 ## 3. Hidden until you add content
