@@ -93,11 +93,12 @@ Tick each item off as you go. Nothing should go live until every **Confirm** ite
 - [x] Blaeser event: March 6, 2024. Added.
 - [ ] Blaeser event: check the photo's alt text
 - [x] Poets for Science reading (Nov 13, 2026, with Amanda Hayes, Kent State) and "Story As Place" workshop (Nov 14, 2026, Meadowcroft Rockshelter) added to Past events from the event pages.
-- [ ] The Poets for Science page gives the book's subtitle as "How Appalachian Wisdom Can Help Us All in the Fight for Sustainability"; the cover says "How Appalachian Wisdom Can Help in the Fight for a Sustainable Future". The Books page uses the cover's wording. Correct?
+- [ ] The Poets for Science page gives the book's subtitle as "How Appalachian Wisdom Can Help Us All in the Fight for Sustainability"; the cover says "How Appalachian Wisdom Can Help in the Fight for a Sustainable Future". The Lit Youngstown program uses a third version: "How Appalachian Wisdom Can Help Us All in the Fight for a Sustainable Future". The Books page uses the cover's wording. Correct?
 - [x] Added from the Poets for Science bio: creative writing (courses list, Home intro, bios); "a long line of makers and musicians in Northern Appalachia"; "prefers to live life out of doors"; poetry and essays in journals and anthologies.
 - [x] March 20, 2026 panel: 49th Annual Appalachian Studies Association Conference, Marshall University. Added.
 - [ ] Optional: link to the 2026 ASA conference overview or program page
-- [ ] 2025 Lit Youngstown festival: her session title, date, venue (paste from the festival page)
+- [x] 2025 Lit Youngstown festival: Oct 16 *Crayfish Magazine* reading and Oct 17 *Wide Branches, Deep Roots* session added from the festival page.
+- [ ] Does Jessica have work in the inaugural issue of *Crayfish Magazine*? If so, add it to the Poems page (title, issue, year, link).
 - [ ] Upcoming readings and talks (date, title, venue and city, optional link)
 - [ ] Past readings and talks
 
