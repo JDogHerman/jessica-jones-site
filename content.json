@@ -96,10 +96,10 @@
         "heading": "Anthologies",
         "note": "",
         "items": [
-          { "title": "*Light Enters the Grove*", "venue": "Kent State University Press", "year": "2024", "url": "https://www.kentstateuniversitypress.com/2024/light-enters-the-grove/" },
-          { "title": "*Poems Across the Big Sky*", "venue": "Many Voices Press", "year": "2006", "url": "https://a.co/d/05xrIKs5" },
-          { "title": "*Bright Bones*", "venue": "Open Country Press", "year": "2018", "url": "https://opencountrypress.org/" },
-          { "title": "*Dear Vaccine*", "venue": "Kent State University Press", "year": "2022", "url": "https://www.kentstateuniversitypress.com/2021/dear-vaccine/" }
+          {"title": "*Light Enters the Grove*", "venue": "Kent State University Press", "year": "2024", "url": "https://www.kentstateuniversitypress.com/2024/light-enters-the-grove/"},
+          {"title": "*Dear Vaccine*", "venue": "Kent State University Press", "year": "2022", "url": "https://www.kentstateuniversitypress.com/2021/dear-vaccine/"},
+          {"title": "*Bright Bones*", "venue": "Open Country Press", "year": "2018", "url": "https://opencountrypress.org/"},
+          {"title": "*Poems Across the Big Sky*", "venue": "Many Voices Press", "year": "2006", "url": "https://a.co/d/05xrIKs5"}
         ]
       },
       {
@@ -164,22 +164,28 @@
         "publisher": "Kent State University Press",
         "year": "2024",
         "description": "An anthology about Cuyahoga Valley National Park. It also includes work by her colleague Bob King.",
-        "cover": { "src": "images/light-enters-the-grove-cover.jpg", "alt": "Cover of the anthology Light Enters the Grove: collage illustrations of a moth, a crayfish and a yellow flower" },
+        "cover": {
+          "src": "images/light-enters-the-grove-cover.jpg",
+          "alt": "Cover of the anthology Light Enters the Grove: collage illustrations of a moth, a crayfish and a yellow flower"
+        },
         "url": "https://www.kentstateuniversitypress.com/2024/light-enters-the-grove/"
       },
       {
-        "title": "Poems Across the Big Sky",
-        "publisher": "Many Voices Press",
-        "year": "2006",
+        "title": "Dear Vaccine",
+        "publisher": "Kent State University Press",
+        "year": "2022",
         "description": "",
-        "url": "https://a.co/d/05xrIKs5",
-        "cover": {
-          "src": "images/poems-across-the-big-sky-cover.jpg",
-          "alt": "Cover of the anthology Poems Across the Big Sky: a painting of horses, a bison, a man in a feathered headdress, fish and an eagle in the sky above a bridge over a river, rusted cars and a small-town bar"
-        },
+        "url": "https://www.kentstateuniversitypress.com/2021/dear-vaccine/",
         "quote": {
-          "text": "Whether in Montana classrooms or in solitude, the beauty, complexity, and struggle of lives in Montana have inspired the remarkable variety of voices which comprise *Poems Across the Big Sky*. The poets included are female as well as male, Native American as well as non-Native, gay as well as straight, urban as well as rural. Some of them write in the Native languages of Montana, and also in English. Together they provide a portrait of Montana which challenges and prods us to a new, more inclusive and comprehensive understanding of the bittersweet essence of contemporary life in Montana Reservations, cities, small towns, isolated ranches, cabins, prairies, and mountains.",
-          "source": "Margaret C. Kingsland (from the Introduction)"
+          "paragraphs": [
+            "People from around the world reflect on the COVID-19 pandemic and vaccine through poetry",
+            "In March 2021, the Wick Poetry Center at Kent State University and the University of Arizona Poetry Center launched the website for the Global Vaccine Poem project, inviting anyone to share experiences of the pandemic and vaccination through poetry. *Dear Vaccine* features selections from over 2,000 poetry submissions to the project, which come from all 50 states and 118 different countries."
+          ],
+          "source": "Kent State University Press"
+        },
+        "cover": {
+          "src": "images/dear-vaccine-cover.jpg",
+          "alt": "Cover of the anthology Dear Vaccine: Global Voices Speak to the Pandemic, with yellow script lettering on a dark blue background above an illustrated curve of the Earth in shades of blue"
         }
       },
       {
@@ -202,21 +208,18 @@
         }
       },
       {
-        "title": "Dear Vaccine",
-        "publisher": "Kent State University Press",
-        "year": "2022",
+        "title": "Poems Across the Big Sky",
+        "publisher": "Many Voices Press",
+        "year": "2006",
         "description": "",
-        "url": "https://www.kentstateuniversitypress.com/2021/dear-vaccine/",
-        "quote": {
-          "paragraphs": [
-            "People from around the world reflect on the COVID-19 pandemic and vaccine through poetry",
-            "In March 2021, the Wick Poetry Center at Kent State University and the University of Arizona Poetry Center launched the website for the Global Vaccine Poem project, inviting anyone to share experiences of the pandemic and vaccination through poetry. *Dear Vaccine* features selections from over 2,000 poetry submissions to the project, which come from all 50 states and 118 different countries."
-          ],
-          "source": "Kent State University Press"
-        },
+        "url": "https://a.co/d/05xrIKs5",
         "cover": {
-          "src": "images/dear-vaccine-cover.jpg",
-          "alt": "Cover of the anthology Dear Vaccine: Global Voices Speak to the Pandemic, with yellow script lettering on a dark blue background above an illustrated curve of the Earth in shades of blue"
+          "src": "images/poems-across-the-big-sky-cover.jpg",
+          "alt": "Cover of the anthology Poems Across the Big Sky: a painting of horses, a bison, a man in a feathered headdress, fish and an eagle in the sky above a bridge over a river, rusted cars and a small-town bar"
+        },
+        "quote": {
+          "text": "Whether in Montana classrooms or in solitude, the beauty, complexity, and struggle of lives in Montana have inspired the remarkable variety of voices which comprise *Poems Across the Big Sky*. The poets included are female as well as male, Native American as well as non-Native, gay as well as straight, urban as well as rural. Some of them write in the Native languages of Montana, and also in English. Together they provide a portrait of Montana which challenges and prods us to a new, more inclusive and comprehensive understanding of the bittersweet essence of contemporary life in Montana Reservations, cities, small towns, isolated ranches, cabins, prairies, and mountains.",
+          "source": "Margaret C. Kingsland (from the Introduction)"
         }
       }
     ]
@@ -356,7 +359,7 @@
     "short": "Jessica Jones is a poet, photographer and college educator whose work centers on a sense of place. She comes from a long line of makers and musicians in Northern Appalachia, where she grew up with strong ties to the land, and her poems and photographs move between that region, rural Montana and her travels. She is the author of the poetry chapbook *Bitterroot* (Finishing Line Press, 2018) and co-editor, with Amanda E. Hayes, of *Wide Branches, Deep Roots* (West Virginia University Press, forthcoming December 2026). Her work appears in the anthology *Light Enters the Grove* (Kent State University Press, 2024). She holds an M.A. in English from the University of Montana and is a Lecturer at the Kent State University at Stark campus, where she teaches creative writing, place-based composition, Native literature, travel writing and poetry.",
     "long": [
       "Jessica Jones is a poet, photographer and college educator whose work centers on a sense of place. She comes from a long line of makers and musicians in Northern Appalachia, where she grew up with strong ties to the land, and her poems and photographs are rooted in that region, in rural Montana and in the places her travels have taken her. Her work explores layered local history, the human cost of copper and silver mining, environmental sustainability and land-based culture. She also writes ekphrastic poems that respond to photographs of city walls, murals and graffiti.",
-      "She is the author of the poetry chapbook *Bitterroot* (Finishing Line Press, 2018), set on the Flathead Indian Reservation. With Amanda E. Hayes, she co-edited *Wide Branches, Deep Roots: How Appalachian Wisdom Can Help in the Fight for a Sustainable Future* (West Virginia University Press, forthcoming December 2026), a collection exploring what sustainability means in Appalachia and how traditional folkways can help achieve it. Her poetry and essays have appeared in journals and anthologies. Her poems appear in the anthologies *Light Enters the Grove* (Kent State University Press, 2024), *Poems Across the Big Sky*, *Bright Bones* and *Dear Vaccine*, and five of her poems, including “Ghost Flight, Berkeley Pit” and “Exocoetidae,” were selected for Poets for Science.",
+      "She is the author of the poetry chapbook *Bitterroot* (Finishing Line Press, 2018), set on the Flathead Indian Reservation. With Amanda E. Hayes, she co-edited *Wide Branches, Deep Roots: How Appalachian Wisdom Can Help in the Fight for a Sustainable Future* (West Virginia University Press, forthcoming December 2026), a collection exploring what sustainability means in Appalachia and how traditional folkways can help achieve it. Her poetry and essays have appeared in journals and anthologies. Her poems appear in the anthologies *Light Enters the Grove* (Kent State University Press, 2024), *Dear Vaccine*, *Bright Bones* and *Poems Across the Big Sky*, and five of her poems, including “Ghost Flight, Berkeley Pit” and “Exocoetidae,” were selected for Poets for Science.",
       "She was Poet-in-Residence at Cuyahoga Valley National Park (2007–2008) and Writer-in-Residence at Calcutta Mercy Hospital in India. In the summer of 2024 she was writer-in-residence with the Open AIR artist residency in Philipsburg, Montana, where she led library writing workshops for adults and teens, taught art camp at the local elementary school, and created “Dear Philipsburg,” a community poem platform where residents shared memories, photos and poems.",
       "Jones holds an M.A. in English from the University of Montana, where she studied place-based and Indigenous education, as well as K-12 teaching licensure and training in Indian Education for All. She taught middle school on the Flathead Indian Reservation for several years and teaches regularly with Upward Bound, serving students from the Blackfeet Reservation and Missoula County Public Schools. She is a Lecturer at the Kent State University at Stark campus, where she teaches creative writing, place-based composition, Native literature, travel writing and poetry.",
       "Away from the page and the classroom, she prefers to live life out of doors. She enjoys hiking, paddle boarding, and time with loved ones and her cat, Magnolia."
