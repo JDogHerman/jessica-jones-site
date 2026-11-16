@@ -379,3 +379,6 @@ main {
 .residency-photos { display: grid; gap: 1.25rem; }
 @media (max-width: 39.99rem) { .residency-photos { grid-template-columns: 1fr 1fr; } .residency-photo { max-width: none; } }
 .event-img.fit { aspect-ratio: auto; object-fit: contain; }
+
+/* The Bitterroot description continues the book entry: no divider above it */
+#about-bitterroot { border-top: none; padding-top: 0.5rem; }
