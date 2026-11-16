@@ -241,7 +241,7 @@
           (a.quote && (!isBlank(a.quote.text) || (a.quote.paragraphs && a.quote.paragraphs.length)) ? '<figure class="book-blurb small"><blockquote>' +
             (a.quote.paragraphs ? paras(a.quote.paragraphs) : "<p>" + fmt(a.quote.text) + "</p>") +
             "</blockquote>" + (a.quote.source ? "<figcaption>— " + fmt(a.quote.source) + "</figcaption>" : "") + "</figure>" : "") +
-          (isBlank(a.url) ? "" : '<p><a class="more" href="' + esc(a.url) + '" rel="noopener">Buy the book <span aria-hidden="true">→</span></a></p>') +
+          (isBlank(a.url) ? "" : '<p><a class="more" href="' + esc(a.url) + '" rel="noopener">' + fmt(a.linkLabel || "Buy the book") + ' <span aria-hidden="true">→</span></a></p>') +
           "</div></li>";
       }).join("") + "</ul>", { id: "anthologies" });
       return out;

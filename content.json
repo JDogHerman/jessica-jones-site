@@ -98,7 +98,7 @@
         "items": [
           { "title": "*Light Enters the Grove*", "venue": "Kent State University Press", "year": "2024", "url": "https://www.kentstateuniversitypress.com/2024/light-enters-the-grove/" },
           { "title": "*Poems Across the Big Sky*", "venue": "Many Voices Press", "year": "2006", "url": "https://a.co/d/05xrIKs5" },
-          { "title": "*Bright Bones*", "venue": "Open Country Press", "year": "2018", "url": "" },
+          { "title": "*Bright Bones*", "venue": "Open Country Press", "year": "2018", "url": "https://opencountrypress.org/" },
           { "title": "*Dear Vaccine*", "venue": "Kent State University Press", "year": "2022", "url": "https://www.kentstateuniversitypress.com/2021/dear-vaccine/" }
         ]
       },
@@ -187,7 +187,8 @@
         "publisher": "Open Country Press",
         "year": "2018",
         "description": "",
-        "url": "",
+        "url": "https://opencountrypress.org/",
+        "linkLabel": "Open Country Press",
         "subtitle": "Contemporary Montana Writing",
         "quote": {
           "paragraphs": [

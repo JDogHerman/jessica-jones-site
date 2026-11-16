@@ -67,7 +67,7 @@ Tick each item off as you go. Nothing should go live until every **Confirm** ite
 - [x] *Poems Across the Big Sky*: Many Voices Press, 2006. Added.
 - [ ] Optional: add the subtitle "An Anthology of Montana Poets" and "Edited by Lowell Jaeger", as shown on the cover?
 - [x] *Bright Bones*: cover, publisher and year (Open Country Press, 2018). Added.
-- [ ] *Bright Bones*: link
+- [x] *Bright Bones*: linked to Open Country Press (home page; swap in a book page if there is one).
 - [x] *Bright Bones*: subtitle and description added (credited to Open Country Press; confirm that's the source). The description says "currently available at Open Country Press"; keep it, or trim that sentence so it doesn't date?
 - [x] *Dear Vaccine*: cover, publisher and year (Kent State University Press, 2022). Added.
 - [x] *Dear Vaccine*: link (Kent State University Press). Added.
