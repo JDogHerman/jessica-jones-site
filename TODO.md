@@ -83,7 +83,7 @@ Tick each item off as you go. Nothing should go live until every **Confirm** ite
 - [ ] High school photo (Open AIR entry): name the other person, or leave her unnamed? Check the alt text.
 - [ ] Philipsburg library photo (Open AIR entry): confirm it's Jessica and that it was taken during the 2024 residency; is that flyer for her workshops? (I can add that to the caption.)
 - [x] "Dear Philipsburg" link on the Open AIR residency. Added.
-- [ ] Optional: a link to the Open AIR residency's own website
+- [x] Open AIR website linked (Residencies and Teaching).
 - [ ] Cuyahoga Valley National Park (2007–2008): a sentence or two of description
 - [ ] Calcutta Mercy Hospital: year, plus a sentence or two of description
 

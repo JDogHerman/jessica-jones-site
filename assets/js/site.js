@@ -268,6 +268,9 @@
         var lnk = isBlank(r.url)
           ? (r.linkLabel ? "<p>" + fmt(r.linkLabel) + "</p>" : "")
           : '<p><a class="more" href="' + esc(r.url) + '" rel="noopener">' + fmt(r.linkLabel || "Learn more") + ' <span aria-hidden="true">→</span></a></p>';
+        (r.extraLinks || []).forEach(function (l) {
+          if (!isBlank(l.url)) lnk += '<p><a class="more" href="' + esc(l.url) + '" rel="noopener">' + fmt(l.label) + ' <span aria-hidden="true">→</span></a></p>';
+        });
         return '<article class="section entry residency">' +
           '<p class="eyebrow">' + meta([r.dates]) + "</p>" +
           "<h2>" + fmt(r.title) + "</h2>" +

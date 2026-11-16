@@ -242,7 +242,8 @@
       {
         "title": "Open AIR writing workshops",
         "text": "As writer-in-residence with Open AIR in Philipsburg, Montana (summer 2024), she led two adult writing workshops and one teen workshop at the local library.",
-        "url": ""
+        "url": "https://www.openairmt.org/",
+        "linkLabel": "Open AIR website"
       },
       {
         "title": "Art camp",
@@ -270,6 +271,7 @@
       ],
       "url": "https://sparkpoems.com/dear-philipsburg/share",
       "linkLabel": "Visit “Dear Philipsburg”",
+      "extraLinks": [{ "label": "Open AIR website", "url": "https://www.openairmt.org/" }],
       "photos": [
         {
           "src": "images/residencies/philipsburg-library.jpg",
