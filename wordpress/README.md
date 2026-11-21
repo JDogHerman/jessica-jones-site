@@ -16,7 +16,7 @@ The theme is a custom upload, so you need WordPress that allows uploading themes
 - **Self-hosted WordPress** (WordPress installed by a web host such as SiteGround, DreamHost, Bluehost or Hostinger, usually a one-click install). Works on any plan. **Recommended.**
 - **WordPress.com Business or Commerce plan.** These allow uploaded themes. The cheaper WordPress.com plans (Free, Personal, Premium) do **not** allow uploaded themes. On those plans you can still import the pages (step 3) and use a built-in theme such as *Twenty Twenty-Five*, but the site won't have this design.
 
-It needs WordPress 6.6 or newer (any new install will be).
+It needs WordPress 6.6 or newer (any new install will be). Tested on WordPress 7.1.5: all nine pages display correctly and open in the editor with every block editable.
 
 ## Setting it up (about 15 minutes)
 
