@@ -109,6 +109,9 @@ Each page's `<head>` contains `https://YOUR-SITE-URL` (used for search engines a
 ### If a change doesn't show up
 Browsers keep copies of the site's style and script files for a while. If you change `assets/css/style.css` or `assets/js/site.js`, also bump the number after `?v=` where those files are linked in the nine `.html` files (any new number works). Text changes in `content.json` don't need this.
 
+## WordPress version
+The `wordpress/` folder has the same site as a WordPress theme plus an import file with all nine pages, so it can be edited in WordPress's visual editor. See `wordpress/README.md` for setup.
+
 ## Design notes
 - Fonts: Cormorant Garamond (headings) and Source Serif 4 (body), from Google Fonts.
 - Colours are defined at the top of `assets/css/style.css`: paper `#faf7f0`, ink `#1f2a2c`, moss green `#3d5a40`, copper `#8f5430` and sage `#a9b49a`. All text colours meet WCAG AA contrast.

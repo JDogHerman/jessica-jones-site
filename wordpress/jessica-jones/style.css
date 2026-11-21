@@ -1,0 +1,128 @@
+/*
+Theme Name: Jessica Jones
+Description: A quiet, text-led literary theme for the personal website of poet, educator and photographer Jessica Jones. Off-white paper, deep ink, Appalachian moss and Montana copper. Not affiliated with Kent State University.
+Version: 1.0.0
+Requires at least: 6.6
+Tested up to: 6.9
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: jessica-jones
+*/
+
+/* Most styling lives in theme.json (colours, fonts, sizes). These are the
+   few touches theme.json can't express. */
+
+/* Header and footer */
+.jj-site-header { border-bottom: 1px solid var(--wp--preset--color--rule); }
+.jj-site-footer { border-top: 1px solid var(--wp--preset--color--rule); }
+.wp-block-navigation a[aria-current="page"],
+.wp-block-navigation .current-menu-item > a {
+	color: var(--wp--preset--color--ink);
+	text-decoration: underline;
+	text-decoration-color: var(--wp--preset--color--copper);
+	text-underline-offset: 0.4em;
+}
+
+/* Page title gets a short copper rule beneath it */
+.jj-page-title::after {
+	content: "";
+	display: block;
+	width: 3.5rem;
+	height: 2px;
+	background: var(--wp--preset--color--copper);
+	margin-top: 1.25rem;
+}
+
+/* Small capitals label above a title, e.g. "POETRY CHAPBOOK" */
+.jj-eyebrow {
+	font-size: 0.8rem;
+	letter-spacing: 0.14em;
+	text-transform: uppercase;
+	color: var(--wp--preset--color--copper);
+	margin-bottom: 0.25rem !important;
+}
+
+/* Quieter metadata lines: publisher · year, venue, place */
+.jj-meta { color: var(--wp--preset--color--ink-soft); font-size: 0.95rem; }
+
+/* Home page hero */
+.jj-hero-name { font-size: var(--wp--preset--font-size--xx-large) !important; font-weight: 500 !important; margin: 0; }
+.jj-tagline {
+	font-family: var(--wp--preset--font-family--display);
+	font-style: italic;
+	font-size: clamp(1.3rem, 3.5vw, 1.65rem);
+	color: var(--wp--preset--color--moss);
+	margin-top: 0.35rem !important;
+}
+.jj-headshot img { aspect-ratio: 4 / 5; object-fit: cover; box-shadow: 0.6rem 0.6rem 0 var(--wp--preset--color--paper-deep); }
+
+/* Large italic pull quote */
+.wp-block-quote.jj-pull p {
+	font-family: var(--wp--preset--font-family--display);
+	font-style: italic;
+	font-size: clamp(1.6rem, 4.5vw, 2.15rem);
+	line-height: 1.3;
+}
+
+/* Book covers: shown whole, with a soft offset shadow */
+.jj-cover img { width: 100%; height: auto; box-shadow: 0.5rem 0.5rem 0 var(--wp--preset--color--paper-deep); }
+.jj-cover-small { max-width: 7rem; }
+
+/* Featured-work cards on the home page */
+.jj-card { background: var(--wp--preset--color--paper-deep); padding: 1.25rem; border-radius: 3px; }
+.jj-card .jj-cover img { height: 15rem; width: auto; max-width: 100%; margin: 0 auto; box-shadow: none; }
+
+/* Photos in the gallery and event rows: same shape, cropped neatly */
+.jj-photo img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+.jj-art img { width: 100%; height: auto; }
+
+/* Poems keep their exact spacing; very wide lines scroll inside the poem, never the page */
+.wp-block-verse {
+	white-space: pre;
+	overflow-x: auto;
+	background: transparent;
+	padding: 0;
+}
+@media (max-width: 40rem) { .wp-block-verse { font-size: 0.85rem !important; } }
+
+/* Event list: date on the left, details on the right */
+.jj-event { border-bottom: 1px dotted var(--wp--preset--color--rule); padding-bottom: 0.85rem; }
+.jj-event strong { font-family: var(--wp--preset--font-family--display); font-size: 1.1rem; }
+
+/* Highlighted placeholders, e.g. [Add professional email] */
+mark.has-inline-color { padding: 0 0.3em; border: 1px dashed #c99a2e; border-radius: 3px; color: #6b4a00; }
+
+/* Visible keyboard focus */
+:where(a, button, input, summary):focus-visible {
+	outline: 3px solid var(--wp--preset--color--copper);
+	outline-offset: 3px;
+}
+
+/* Page spacing and footer */
+.jj-main { padding-top: 2.5rem; padding-bottom: 4rem; }
+.jj-site-header { padding-top: 1rem; padding-bottom: 1rem; }
+.jj-site-footer {
+	margin-top: 0;
+	padding-top: 2rem;
+	padding-bottom: 2.5rem;
+	background: var(--wp--preset--color--paper-deep);
+	color: var(--wp--preset--color--ink-soft);
+	font-size: 0.92rem;
+}
+.jj-site-footer p { margin: 0 0 0.5rem; max-width: 40rem; }
+
+/* Home hero: name beside a modest portrait */
+.wp-block-columns:has(.jj-hero-name) { align-items: center; }
+.wp-block-image.jj-headshot { max-width: 20rem; margin-left: auto; margin-right: 0; }
+@media (max-width: 781px) { .wp-block-image.jj-headshot { margin-left: 0; } }
+
+/* Featured-work cards line up at equal height */
+.wp-block-column > .jj-card { height: 100%; }
+
+/* Gallery photos fill their column */
+.wp-block-image.jj-photo, .wp-block-image.jj-art { width: 100%; margin-left: 0; margin-right: 0; }
+.wp-block-image.jj-photo img, .wp-block-image.jj-art img { width: 100% !important; }
+.wp-block-image.jj-cover { width: 100%; margin: 0; }
+.wp-block-image.jj-cover.jj-cover-small { max-width: 7rem; }
+.jj-card .wp-block-image.jj-cover { width: auto; }
